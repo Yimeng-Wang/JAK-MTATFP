@@ -1,8 +1,8 @@
 # JAK-MTATFP
-***
+
 A selective JAK inhibitor screening and designing platform. 
 ## Installation
-***
+
 The code in this repository relies on the DGL package (https://github.com/dmlc/dgl) with pytorch backend (http://pytorch.org) as well as on sklearn (http://scikit-learn.org) and dgllife (https://github.com/awslabs/dgl-lifesci).
 We are recommended you to create a conda environment for example:
 
@@ -13,7 +13,7 @@ Then activate the environment:
 `conda activate MTATFP`
 
 ## Usage
-***
+
 First of all, we are required to prepare the molecules, taking 'C/C=C/C(O)=Nc1cccc(CNc2c(C(=N)O)cnn3cccc23)c1' as an exapmle:  
   
 `python preprocess.py`
